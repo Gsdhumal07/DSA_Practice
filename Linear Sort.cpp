@@ -29,3 +29,6 @@ int main(){
 		cout<<arr[i]<<"\t";
 	}
 }
+
+
+
