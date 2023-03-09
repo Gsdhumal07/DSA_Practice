@@ -3,19 +3,19 @@ using namespace std;
 
 binary(int arr[], int x , int low , int high){
 	
-	while(low=high){
+
 		int mid = (low + high)/2;
 		if(x==arr[mid]){
 		cout<<"Element found : ";
-		return mid;
+		
 		}
 		else if(x>arr[mid]){
-			low = mid +1;
+			binary(arr ,x ,mid+1 ,high);
 		}
 		else if(x<arr[mid]){
-			high = mid-1;
+			binary(arr ,x , low, mid-1);
 		}
-	}
+	
 	
 }
 
