@@ -193,7 +193,6 @@ int flag=0,i;
 		else
 		{
 				    fout.write((char *)&s,sizeof(s));
-
 		}
 	}
 	if(flag==0)
