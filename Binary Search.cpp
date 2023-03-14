@@ -15,10 +15,7 @@ binary(int arr[], int x , int low , int high){
 		else if(x<arr[mid]){
 			binary(arr ,x , low, mid-1);
 		}
-	
-	
 }
-
 int main(){
 	int n ,x;
 	int arr[n];
@@ -40,5 +37,4 @@ int main(){
 	cout<<"\nEnter the Element you want to Search : ";
 	cin>>x;
 	binary(arr ,x , 0 , n);
-	
 }
