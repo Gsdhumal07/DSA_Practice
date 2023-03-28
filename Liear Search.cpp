@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 int main(){
 	int n,p ,flag=0 ;
 	cout<<"\nEnter the no of Element : ";
